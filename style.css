@@ -11,7 +11,7 @@
     --para-tint : #e4e4e4;
     --white : #fff;
     --black : #000;
-    --heading : #84a4fc;
+    --heading : #f0ff66;
     --heading2 : #14F68C;
 
 }
@@ -146,6 +146,9 @@ nav ul li a
 }
 .heading
 {
-    position: absolute;
     color: var(--heading);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
